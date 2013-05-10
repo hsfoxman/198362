@@ -1,0 +1,290 @@
+/* =Reset
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align: right;
+}
+
+/* =Global
+----------------------------------------------- */
+
+/* Text elements */
+
+ul, ol {
+	margin: 0 1.5em 1.5em 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+textarea {
+	padding-right: 3px;
+	padding-left: 0;
+}
+
+/* Links */
+
+/* Alignment */
+.alignright {
+	float: right;
+	margin: .75em 0 .75em 1.5em;
+}
+.alignleft {
+	float: left;
+	margin: .75em 1.5em .75em 0;
+}
+
+
+/* =Header
+----------------------------------------------- */
+
+#masthead hgroup:before {
+	right: 0;
+	left: auto;
+}
+
+
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation {
+	float: right;
+}
+
+.main-navigation ul {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.main-navigation ul ul {
+	float: right;
+	right: 0;
+	text-align: right;
+	left: auto;
+}
+
+.main-navigation ul ul ul {
+	right: 100%;
+	left: auto;
+}
+
+/* Small menu */
+
+.main-small-navigation .menu a {
+	padding: .5em 1.5em .5em 0;
+}
+
+
+/* =Layout
+----------------------------------------------- */
+
+#tertiary {
+	clear: left;
+}
+
+
+/* =Media
+----------------------------------------------- */
+
+.wp-caption.alignleft {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+.wp-caption.alignright {
+	margin-left: 1.5em;
+	margin-right: auto;
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+
+.site-content .nav-previous {
+	float: right;
+}
+.site-content .nav-next {
+	float: left;
+	text-align: left;
+}
+.next-image {
+	float: left;
+	text-align: left;
+}
+
+
+/* =Comments
+----------------------------------------------- */
+
+.required {
+	float: left;
+	right: -10px;
+	left: auto;
+}
+#commentform .comment-notes .required {
+	right: auto;
+	left: auto;
+}
+#commentform .comment-form-author label,
+#commentform .comment-form-email label,
+#commentform .comment-form-url label {
+	float: right;
+}
+ul.children .comment-author {
+	border-left: 0 none;
+	clear: right;
+	border-right: none;
+}
+ul.children .comment-content,
+ul.children .comment-content .comment-meta,
+ul.children .reply {
+	padding-right: 0;
+	padding-left: 0;
+}
+.commentlist .avatar {
+	float: right;
+	margin: 0 0 0 .75em;
+}
+.comment-author-avatar {
+	float: right;
+	margin-left: 10px;
+	margin-right: auto;
+}
+.comment-content,
+.comment-content .comment-meta,
+.reply {
+	padding-right: 171px;
+	padding-left: 0;
+}
+.comment-author {
+	float: right;
+	border-left: 1px solid rgba(119,119,119,.1);
+	margin-left: 20px;
+	margin-right: auto;
+	border-right: none;
+}
+.comment-author cite.fn {
+	float: right;
+}
+.comment-form-comment label {
+	float: right;
+}
+#cancel-comment-reply-link {
+	float: left;
+}
+
+
+/* =Widgets
+----------------------------------------------- */
+
+td#prev {
+	text-align: right;
+}
+
+td#next {
+	text-align: left;
+}
+
+
+.infinite-scroll #infinite-handle {
+	float: right;
+}
+
+
+/* =Media Queries
+----------------------------------------------- */
+
+@media screen and ( min-width: 24em ) {
+	#main,
+	.main-navigation ul,
+	#masthead hgroup,
+	.header-image {
+		padding-right: 3em;
+		padding-left: 3em;
+	}
+
+}
+
+@media screen and ( min-width: 44em ) {
+	#main,
+	.main-navigation ul,
+	#masthead hgroup,
+	.header-image {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.elf {
+		background-image: url('img/tree-rtl.png');
+		margin: 0 -19em 0 0;
+		right: 50%;
+		left: auto;
+	}
+
+	.elf2 {
+		background-image: url('img/elf-rtl.png');
+		margin: 0 0 0 -22em;
+		left: 50%;
+		right: auto;
+	}
+
+	.comments-link a {
+		right: -72px;
+		left: auto;
+	}
+
+	a .entry-date.odd:before {
+		right: 15px;
+		left: auto;
+	}
+
+	a .entry-date.even:before {
+		right: 10px;
+		left: auto;
+	}
+
+	.sticky .entry-date:before {
+		right: 10px;
+		left: auto;
+	}
+
+	a .entry-date {
+		float: left;
+		right: -80px;
+		left: auto;
+	}
+
+}
+
+@media screen and ( min-width: 62em ) {
+	#primary {
+		float: right;
+		margin: 0 0 0 -25%;
+	}
+
+	#content {
+		margin: 0 0 0 30%;
+	}
+
+	#secondary {
+		float: left;
+	}
+
+	.elf {
+		margin: 0 -21em 0 0;
+	}
+
+	.elf2 {
+		margin: 0 0 0 -24em;
+	}
+}
+
+@media screen and ( min-width: 70em ) {
+	.elf {
+		margin: 0 -29em 0 0;
+	}
+
+	.elf2 {
+		margin: 0 0 0 -32em;
+	}
+
+}

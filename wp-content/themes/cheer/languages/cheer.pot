@@ -1,0 +1,401 @@
+# Copyright (C) 2012 Automattic
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cheer 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/cheer\n"
+"POT-Creation-Date: 2012-12-05 15:40:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:25
+msgid "Category Archives: %s"
+msgstr ""
+
+#: archive.php:28
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: archive.php:35
+msgid "Author Archives: %s"
+msgstr ""
+
+#: archive.php:43
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:46
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:49
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:52
+msgid "Post Format Archives: %s"
+msgstr ""
+
+#: archive.php:55 sidebar.php:18
+msgid "Archives"
+msgstr ""
+
+#: comments.php:32
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:17 content-single.php:15 content.php:20 image.php:70
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:18 content-single.php:54 content.php:51 image.php:98
+msgid "Edit"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:22 content.php:29 content.php:39
+msgid ", "
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:30
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink "
+"to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:32
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: content-single.php:38
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:40
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content.php:10
+msgid "Permalink to %s"
+msgstr ""
+
+#: content.php:19
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:33
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content.php:44
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content.php:49
+msgid "Comments:"
+msgstr ""
+
+#: content.php:49
+msgid "+"
+msgstr ""
+
+#: content.php:49
+msgid "1"
+msgstr ""
+
+#: content.php:49
+msgid "%"
+msgstr ""
+
+#: footer.php:17
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:84
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:102
+msgid "Sidebar"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. 		by Maiden Orange, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:144
+msgctxt "Maiden Orange font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional Maiden Orange character subset specific to
+#. your language, translate
+#. 		this to 'greek', 'cyrillic' or 'vietnamese'. Do not translate into your
+#. own language.
+#: functions.php:150
+msgctxt "Maiden Orange font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. 		by Ribeye Marrow, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:171
+msgctxt "Ribeye Marrow font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional Ribeye Marrow character subset specific to
+#. your language, translate
+#. 		this to 'greek', 'cyrillic' or 'vietnamese'. Do not translate into your
+#. own language.
+#: functions.php:177
+msgctxt "Ribeye Marrow font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. 		by Lancelot, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:198
+msgctxt "Lancelot font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional Lancelot character subset specific to your
+#. language, translate
+#. 		this to 'greek', 'cyrillic' or 'vietnamese'. Do not translate into your
+#. own language.
+#: functions.php:204
+msgctxt "Lancelot font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:261
+msgid "Color Scheme"
+msgstr ""
+
+#: header.php:33
+msgid "Page %s"
+msgstr ""
+
+#: header.php:64
+msgid "Menu"
+msgstr ""
+
+#: header.php:65
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:22
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:23
+msgid "Next &rarr;"
+msgstr ""
+
+#: image.php:78
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-"
+"size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s"
+"\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:90
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:92
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:94
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: image.php:96
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: inc/template-tags.php:44
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:78 inc/template-tags.php:101
+msgid "(Edit)"
+msgstr ""
+
+#: inc/template-tags.php:88
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:99
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:134
+msgid ""
+"<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><span class=\"entry-date\">"
+"%3$s</span></a><span class=\"byline\"><span class=\"hide-sep\"> &bull; </"
+"span> By <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" "
+"title=\"%5$s\" rel=\"author\">%6$s</a></span><span class=\"sep\"> &bull; </"
+"span></span>"
+msgstr ""
+
+#: inc/template-tags.php:139 inc/template-tags.php:151
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/template-tags.php:144
+msgid ""
+"<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date "
+"%9$s\" datetime=\"%3$s\" pubdate><span class=\"month\">%4$s</span><span "
+"class=\"day\">%5$s</span><span class=\"full-date\">%10$s</span></time></"
+"a><span class=\"byline\"><span class=\"hide-sep\"> &bull; </span> By <span "
+"class=\"author vcard\"><a class=\"url fn n\" href=\"%6$s\" title=\"%7$s\" "
+"rel=\"author\">%8$s</a></span><span class=\"sep\"> &bull; </span></span>"
+msgstr ""
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:20
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr ""
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Cheer"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://theme.wordpress.com/themes/cheer/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Celebrate the holidays with Cheer, a whimsical, textured holiday theme "
+"featuring illustrations from The Fox and King."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://automattic.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width, No Sidebar"
+msgstr ""
